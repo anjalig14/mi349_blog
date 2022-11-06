@@ -51,16 +51,16 @@ body {
 }
 
 header {
-  background: #DACCBA;
+  background: #222;
 }
 
 section {
-  background: #3B2621;
+  background: #ccc;
     display: flex;
 }
 
 article {
-  background: #DACCBA;
+  background: #999;
   padding: 20px;
   margin: 20px;
 }
@@ -74,5 +74,5 @@ article:nth-of-type(2) {
 }
 
 footer {
-  background: #DACCBA;
+  background: #555;
 }
