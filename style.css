@@ -34,4 +34,25 @@ p {
 
 
 
+body {
+    min-height: 50em;
+}
+
+.sticky, .position-demo {
+    color: #F0EAE7;
+    padding: 20px;
+}
+  
+.sticky {
+    background: #895B4A;
+    position: sticky;
+    top: 0;
+}
+  
+  
+  
+  
+  
+  
+
   
