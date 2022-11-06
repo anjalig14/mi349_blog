@@ -28,6 +28,11 @@ p {
     border-bottom: 1px dotted #ccc;
 }
 
+
+
+
+
+
 body {
   min-height: 50em;
 }
@@ -43,34 +48,79 @@ body {
   top: 0;
 }
 
+
+
+
+
+
 body {
-  color: white;
+    color: white;
 }
-
-header {
-  background: #ccc;
   
+header {
+    background: #ccc;
+    
 }
-
+  
 section {
-  background: #ccc;
+    background: #ccc;
     display: flex;
 }
-
+  
 article {
-  background: #999;
-  padding: 20px;
-  margin: 20px;
+    background: #999;
+    padding: 20px;
+    margin: 20px;
 }
-
+  
 article:nth-of-type(1) {
-  
+    
 }
-
+  
 article:nth-of-type(2) {
-  
+    
 }
 
-footer {
-  background: #555;
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: #ccc;
 }
+  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+  
+.navigation a:hover {
+    background: #1565C0;
+}
+  
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+}
+.navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.navigation li:last-of-type a {
+      border-bottom: none;
+    }
+}
+  
