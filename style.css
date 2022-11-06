@@ -82,6 +82,9 @@ article:nth-of-type(2) {
 }
 
 
+
+
+
 .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -112,6 +115,7 @@ article:nth-of-type(2) {
     .navigation {
         flex-flow: column wrap;
         padding: 0;
+    }
 }
 .navigation a { 
     text-align: center; 
@@ -121,6 +125,6 @@ article:nth-of-type(2) {
 }
 .navigation li:last-of-type a {
       border-bottom: none;
-    }
 }
+
   
