@@ -27,3 +27,52 @@ p {
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
+
+body {
+  min-height: 50em;
+}
+
+.sticky, .position-demo {
+  color: #F0EAE7;
+  padding: 20px;
+}
+
+.sticky {
+  background: #895B4A;
+  position: sticky;
+  top: 0;
+}
+
+
+}
+
+body {
+  color: white;
+}
+
+header {
+  background: #DACCBA;
+}
+
+section {
+  background: #3B2621;
+    display: flex;
+}
+
+article {
+  background: #DACCBA;
+  padding: 20px;
+  margin: 20px;
+}
+
+article:nth-of-type(2) {
+  
+}
+
+article:nth-of-type(3) {
+  
+}
+
+footer {
+  background: #9F8C86;
+}
