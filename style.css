@@ -80,9 +80,6 @@ article:nth-of-type(2) {
 article:nth-of-type(3) {
     
 }
-.container {
-  flex-direction: row | row-reverse | column | column-reverse
-}
 
 
 
