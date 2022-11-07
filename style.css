@@ -66,6 +66,17 @@ section {
     background: #ccc;
     display: flex;
 }
+
+aside {
+  background: #F0EAE7;
+  flex: 1;
+}
+
+div {
+  background: #9F8C86;
+  flex: 1;
+}
+
   
 article {
     background: #999;
@@ -80,6 +91,7 @@ article:nth-of-type(2) {
 article:nth-of-type(3) {
     
 }
+
 
 
 
