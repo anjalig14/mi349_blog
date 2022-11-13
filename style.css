@@ -1,5 +1,5 @@
 html {
-    background: #e3e3e3;
+    background: #d7d2ce;
 }
 
 body {
@@ -21,11 +21,11 @@ p {
 }
 
 #blog {
-    border-top: 1px dotted #ccc;
+    border-top: 1px dotted #f4f2f0;
 }
 
 .blog-post {
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #f4f2f0;
 }
 
 
