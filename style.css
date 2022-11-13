@@ -100,7 +100,7 @@ article:nth-of-type(3) {
     justify-content: flex-end;
     list-style: none;
     margin: 0; 
-    background: #DACCBA;
+    background: #857b74;
 }
   
 .navigation a {
@@ -111,7 +111,7 @@ article:nth-of-type(3) {
 }
   
 .navigation a:hover {
-    background: #1565C0;
+    background: #f4f2f0;
 }
   
 @media all and (max-width: 800px) {
