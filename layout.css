@@ -5,7 +5,7 @@ body {
 }
 
 .card {
-    background: #121212;
+    background: #895B4A;
     border-radius: 10px;
     padding: 20px;
 }
@@ -18,6 +18,6 @@ body {
 }
 @media (max-width: 400px) {
     #c1 {
-        background: red;
+        background: orange;
     }
 }
