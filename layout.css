@@ -1,5 +1,5 @@
 body {
-    background: #222;
+    background: #e3e3e3;
     color: #f3f3f3;
     font-family: Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px;
-    grid-gap: 50px;
+    grid-gap: 10px;
 }
 
 #c1 {
