@@ -143,7 +143,7 @@ article:nth-of-type(3) {}
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 70px;
+    grid-template-rows: 100px 100px;
     grid-gap: 10px;
 }  
 
