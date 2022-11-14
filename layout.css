@@ -1,17 +1,25 @@
 body {
-    background: #222;
+    background: #e3e3e3;
     color: #f3f3f3;
     font-family: Helvetica, sans-serif;
 }
 
 .card {
-    background: #121212;
+    background: #895B4A;
     border-radius: 10px;
     padding: 20px;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+
 @media (max-width: 400px) {
     #c1 {
-        background: red;
+        background: orange;
     }
 }
