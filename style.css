@@ -163,4 +163,7 @@ article:nth-of-type(3) {}
 }
 
 @media (max-width: 400px) {
+    #c1 {
+        background: #d3c0b2;
+    }
 }
